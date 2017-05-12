@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otra2"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PRINCIPAL"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="5dp"
+
+        android:id="@+id/imageButton5"
+        android:background="@drawable/atras" />
+
+    <ImageView
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="310dp"
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/aaaa"
+        android:layout_toRightOf="@+id/textView2"
+
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FACTURA"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_width="148dp"
+        android:layout_height="92dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/facturar2"
+        android:onClick="Facturas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PRODUCTOS"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_width="93dp"
+        android:layout_height="86dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/produc"
+        android:onClick="menu_producto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CLIENTES"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_width="92dp"
+        android:layout_height="84dp"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/user"
+        android:onClick="menu_cliente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="VENTAS"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="79dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/ventas"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
